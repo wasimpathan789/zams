@@ -2,7 +2,7 @@
   position: relative;
   height: 80vh;
   width: 100%;
-  z-index: -22;
+  /* z-index: -22; */
 }
 
 .swiper {
@@ -63,7 +63,7 @@
 
 /* slide contents  */
 .slide-content {
-  position: relative;
+  /* position: relative; */
   width: 40%;
   margin-top: 100px;
   height: 70%;
@@ -106,7 +106,7 @@
   height: 500%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: -1;
+  z-index: -10000;
   margin-top: -640px;
   margin-left: -124px;
 }

@@ -15,7 +15,7 @@ const Mainpage = () => {
   return (
     <div>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
 
       <div className="mainWrapper">
         <AboutUsPage />

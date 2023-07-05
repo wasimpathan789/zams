@@ -44,6 +44,8 @@ const Hero = () => {
           }}
         >
           <div className="slide-content">
+            <div className="hero-overlay"></div>
+
             <h1>We provide the Best….</h1>
             <p>
               We aim to work together as a team, putting our clients first
@@ -56,7 +58,6 @@ const Hero = () => {
                 <a href="#about">Explore</a>
               </button>
             </div>
-            <div className="hero-overlay"></div>
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -69,6 +70,8 @@ const Hero = () => {
           }}
         >
           <div className="slide-content">
+            <div className="hero-overlay"></div>
+
             <h1>We have a passion for . .</h1>
             <p>
               We are team of HVAC engineers that have gained considerable
@@ -79,11 +82,10 @@ const Hero = () => {
             </p>
             <div className="explore-btn">
               <button>
-                {" "}
-                <Link to={"/about"}>Explore</Link>{" "}
+                <a href="#about">Explore</a>
               </button>
             </div>
-            <div className="hero-overlay"></div>
+            {/* <div className="hero-overlay"></div> */}
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -96,6 +98,8 @@ const Hero = () => {
           }}
         >
           <div className="slide-content">
+            <div className="hero-overlay"></div>
+
             <h1>We are a passionate . . .</h1>
             <p>
               Our team combine experience, expertise and knowledge to provide
@@ -106,11 +110,10 @@ const Hero = () => {
             </p>
             <div className="explore-btn">
               <button>
-                {" "}
-                <Link to={"/about"}>Explore</Link>{" "}
+                <a href="#about">Explore</a>
               </button>
             </div>
-            <div className="hero-overlay"></div>
+            {/* <div className="hero-overlay"></div> */}
           </div>
         </SwiperSlide>
       </Swiper>
